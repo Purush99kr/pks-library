@@ -4,7 +4,7 @@
 
 Software is built through a structured process called the Software Development Life Cycle (SDLC), which transforms a basic idea into a working computer program.
 
-### SDLC
+## SDLC
 
 The software development life cycle(SDLC) is a structured process which is being followed during software building.
 
@@ -60,6 +60,49 @@ Linear ordering of activities has some significant consequences. First, to ident
 - V - Model
 
 In this type of SDLC model testing and the development, the step is planned in parallel. So, there are verification phases on the side and the validation phase on the other side. V-Model joins by Coding phase.
+
+## STLC
+
+The Software Testing Life Cycle (STLC) is a structured process that defines the steps involved in testing a software product. It ensures that the application meets quality standards and user expectations. An essential part of SDLC, guide QA.
+
+### Phases of STLC
+
+- Requirement Analysis
+  - review documents,interview stakeholders, identify the challenges and ambiguities
+  - Understand what to test, scope and testing challenges
+- Test Planning
+  - most crucial, test strategy and plan are created
+  - Define testing objectives, scope, and priorities
+  - Identify required testing environments, tools, and resources
+  - Assign roles and responsibilities to the testing team
+- Test Case Development
+  - Writing test cases that are clear, concise and easy to understand
+  - Creating test data and test scenarios that will be used in the test cases
+- Test Environment Setup
+  - It defines the hardware, software and network conditions under which testing will be executed.
+  - Install and configure required software, tools and databases. Set up servers, browsers, operating systems and devices.
+  - Prepare access credentials and permissions. Validate the environment before test execution.
+- Test Execution
+  - In this phase, the prepared test cases are executed in the defined environment
+  - Run manual or automated test cases. Log defects with details like severity and priority.
+  - Retest fixed defects (defect retesting). Perform regression testing if required.
+  - Collect and analyze test results. Document and share test reports.
+- Test Closure
+  - The final phase where testing activities are completed and documented
+  - Ensure all defects are tracked and closed
+  - Clean up the test environment. Archive test cases, data and reports.
+
+# STLC vs SDLC
+
+|    **Aspect**    | **SDLC (Software Development Life Cycle)**                                                                            | **STLC (Software Testing Life Cycle)**                                                                            |
+| :--------------: | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+|  **Definition**  | A process that defines all phases of software development, from requirements gathering to deployment and maintenance. | A process that defines all phases of software testing, from requirement analysis to test closure.                 |
+|    **Focus**     | Focuses on building the software.                                                                                     | Focuses on verifying and validating the software.                                                                 |
+|    **Phases**    | Requirement gathering, Design, Development, Testing, Deployment, Maintenance.                                         | Requirement analysis, Test planning, Test case development, Test environment setup, Test execution, Test closure. |
+| **Performed By** | Developers, business analysts, project managers, QA team (partly).                                                    | QA/testing team primarily.                                                                                        |
+| **Deliverables** | Software product, design documents, user manuals, deployment package.                                                 | Test plan, test cases, defect reports, test summary, closure report.                                              |
+|  **Objective**   | To deliver a working software product that meets user requirements.                                                   | To ensure the product is defect-free and high quality before release.                                             |
+|   **Relation**   | Covers the entire lifecycle of the software.                                                                          | Part of SDLC, focused only on testing.                                                                            |
 
 ## Agile Concepts in SDLC
 
